@@ -20,3 +20,5 @@ class calculator{
         return i/j;
     }
 }
+  let UserInputNum1 =prompt ("please enter your first number")
+  let UserInputNum2= prompt("please enter your second number")
