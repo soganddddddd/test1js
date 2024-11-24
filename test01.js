@@ -1,6 +1,6 @@
 //calculator
 
-class calculator{
+class Calculator{
     add (i,j){
         return i+j;
     }
@@ -19,6 +19,9 @@ class calculator{
         }else
         return i/j;
     }
+  
+
 }
-  let UserInputNum1 = ("please enter your first number")
-  let UserInputNum2= ("please enter your second number")
+const calc = new Calculator();
+
+console.log( calc.add (5,2));
